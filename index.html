@@ -1,37 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Deep Link Test</title>
-    <script type="text/javascript">
-        function openApp() {
-            // Deep link URL
-            const deepLink = "frontfoot://app/generatePassword";
-            // Play Store URL (replace with your app's Play Store link)
-            const playStoreUrl = "https://play.google.com/store/apps/details?id=com.zinemind.frontfoot";
-
-            // Try to open the app
-            window.location.href = deepLink;
-
-            // Add a flag to check if the app opened
-            let appOpened = false;
-
-            // Listen for the visibility change event
-            document.addEventListener("visibilitychange", function() {
-                if (document.hidden) {
-                    appOpened = true; // App opened successfully
-                }
-            });
-
-            // If the app is not installed, redirect to the Play Store after a delay
-            setTimeout(function() {
-                if (!appOpened) {
-                    window.location.href = playStoreUrl;
-                }
-            }, 1000); // 1-second delay to check if the app opened
-        }
-    </script>
+    <title>Open App</title>
 </head>
 <body>
-    <button onclick="openApp()">Click here to verify</button>
+    <h1>Open the App</h1>
+    <a href="https://frontfootqaweb.z30.web.core.windows.net/app">Click here to open the app</a>
 </body>
 </html>
