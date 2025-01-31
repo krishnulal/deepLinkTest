@@ -3,6 +3,6 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.zinemind.frontfoot",
-      "sha256_cert_fingerprints": ["C6:61:A9:18:06:3D:05:B6:E0:BA:DA:B7:00:1E:2A:BD:E5:58:38:CA:03:B9:92:2B:CD:FE:5C:F5:F4:E8:40:6D"]
+      "sha256_cert_fingerprints": ["1E:E0:34:31:EC:C4:30:C2:3D:43:AF:89:10:0B:75:BB:41:85:24:17:9A:77:6C:84:B3:B1:24:C2:91:DA:00:F7"]
     }
   }]
